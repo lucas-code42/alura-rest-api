@@ -5,10 +5,10 @@ import med.voll.api.models.ModelMedico;
 
 @RestController
 @RequestMapping("/medicos")
-public class CadastroMedicos {
+public class MedicoController {
 
     @PostMapping
-    public String medicos(@RequestBody ModelMedico payload) {
+    public String cadastrar(@RequestBody ModelMedico payload) {
         System.out.println(payload.getNome());
         System.out.println(payload.getEmail());
         System.out.println(payload.getEspecialidade());
