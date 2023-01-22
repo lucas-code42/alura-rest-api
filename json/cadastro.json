@@ -1,0 +1,14 @@
+{
+  "nome": "Roddrigo Ferreira",
+  "email": "rodrigo.ferreira@gmail.com",
+  "especialidade": "ortopedia",
+  "endereco": {
+    "logradouro": "rua 1",
+    "bairro": "bairro 1",
+    "cep": "123456",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "numero": "1",
+    "complemento": "apartamento 1"
+  }
+}
